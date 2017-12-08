@@ -27,7 +27,7 @@ This software requires the following libraries:
  * LevelDB (https://github.com/google/leveldb/archive/master.zip)
 
 The GF-Complete and LevelDB are packed in /client/lib/ and /server/lib/ respectively.
-
+ 
 
 # INSTALLATION
 
@@ -35,7 +35,7 @@ The GF-Complete and LevelDB are packed in /client/lib/ and /server/lib/ respecti
 For linux user you can install the LevelDB dependency, OpenSSL and Boost by the following:
 
  * sudo apt-get install libssl1.0.0 libboost-all-dev libsnappy-dev
-
+  $ sudo apt-get install libssl-dev      http://blog.csdn.net/andy812110/article/details/24842219
 
 # CONFIGURATION
 
