@@ -101,12 +101,12 @@ Chunker::~Chunker(){
         free(powerLUT_);
         free(removeLUT_);
 
-        fprintf(stderr, "\nThe fixed-size chunker has been destructed! \n");	
+        fprintf(stderr, "\nThe variable-size chunker has been destructed! \n");	
         fprintf(stderr, "\n");
     }
 
-    if (chunkerType_ == VAR_SIZE_TYPE) { /*variable-size chunker*/
-        fprintf(stderr, "\nThe variable-size chunker has been destructed! \n");	
+    if (chunkerType_ == FIX_SIZE_TYPE) { /*fixed-size chunker*/
+        fprintf(stderr, "\nThe fixed-size chunker has been destructed! \n");	
         fprintf(stderr, "\n");
     }
 }
