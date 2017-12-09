@@ -38,6 +38,8 @@ INSTALLATION
 For linux user you can install the LevelDB dependency, OpenSSL and Boost by the following:
 
  * sudo apt-get install libssl1.0.0 libboost-all-dev libsnappy-dev
+ * sudo apt-get install libssl-dev libboost-dev(degraded version)
+ http://blog.csdn.net/andy812110/article/details/24842219
 
 
 CONFIGURATION
