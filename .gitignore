@@ -1,0 +1,5 @@
+## Ignore .o temporary files
+
+*.o
+trunk/src/client/CLIENT
+trunk/src/server/SERVER
